@@ -36,3 +36,6 @@ Input row size = **1000000**
 Average Time (in C, ms) = 42.733333 ms
 
 Average Time (in x86-64, ms) = 4.266667 ms
+
+![](images/terminal%201.png)
+![](images/terminal%202.png)
