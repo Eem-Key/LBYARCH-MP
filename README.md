@@ -52,9 +52,9 @@ The x86-64 implementation, however, remains significantly faster:
 
 ## Screenshots
 
-![](images/Terminal%201.png)
-![](images/Terminal%202.png)
-![](images/Terminal%203.png)
+![Terminal 1](https://drive.google.com/uc?export=view&id=1CzxA5UTeF6G5wIGmvLyam-NDl8g9rJ3h)
+![Terminal 2](https://drive.google.com/uc?export=view&id=1vuRd8DwiPe0mNqgM1KpHa0AHp-DJZSFb)
+![Terminal 3](https://drive.google.com/uc?export=view&id=1tBTR5vAPPbZhngg1XQBsRqS-iqFsh1aE)
 
 ## Demo Video
 
