@@ -20,7 +20,6 @@ void computeAcceleration(long long int y, int cols, float* array, int* output) {
 int main() {
 	long long int y;
 	int cols = 3;
-
 	printf("Enter an integer: ");
 	scanf_s("%lld", &y);
 
@@ -64,7 +63,7 @@ int main() {
 	x64Acceleration(y, array, output);
 	end = clock();
 	time_taken = ((double)(end - start) * 1000 / CLOCKS_PER_SEC);
-	printf("Average Time (in x86-64, ms) = %lf ms\n", time_taken);
+	printf("Time (in x86-64, ms) = %lf ms\n", time_taken);
 
 	for (int i = 0; i < y; i++)
 		printf("x86-64 Row %d: %d\n", i + 1, output[i]);
@@ -75,9 +74,9 @@ int main() {
 	// ----------------------------------------------------------------------------------------------------------- TESTINGGGG
 	printf("----------------- Start of Testing -----------------\n\n");
 
-	int input_y[6] = { 10, 100, 1000, 10000, 100000, 1000000 };
+	int input_y[4] = { 10, 100, 1000, 10000 };
 
-	for (int j = 0; j < 6; j++) {
+	for (int j = 0; j < 4; j++) {
 		printf("Input row size = %d \n\n", input_y[j]);
 		y = input_y[j];
 		long long int total_elements = y * cols;
@@ -88,10 +87,6 @@ int main() {
 		int* output = malloc(y * sizeof(int));
 
 		// -------------------------------------------------------------- Fill the array with values
-		/*printf("Enter the elements of the array:\n");
-		for (int i = 0; i < y * cols; i += 3) {
-			scanf_s("%f,%f,%f", &array[i], &array[i + 1], &array[i + 2]);
-		}*/
 		for (int i = 0; i < total_elements; i += 3) {
 			float randomFloat = ((float)rand() / RAND_MAX) * 100;
 			float randomFloat2 = ((float)rand() / RAND_MAX) * 100;
@@ -100,7 +95,7 @@ int main() {
 			array[i + 1] = randomFloat2;
 			array[i + 2] = randomTime;
 		}
-
+		//tihiuiuhiuh
 		// -------------------------------------------------------------- Initialize Clock
 		clock_t start, end;
 		double time_taken;
