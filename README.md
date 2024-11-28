@@ -58,6 +58,4 @@ The x86-64 implementation, however, remains significantly faster:
 
 ## Demo Video
 
-Click the Link to watch the Short Demo [here](## Demo Video
-
-Check out the demo video [here](https://drive.google.com/uc?id=YOUR_VIDEO_ID).
+Click the Link to watch the [Short Demo](https://drive.google.com/file/d/1fLPxaZyWumpYIOkqcRfoxvdKo1eRGmSW/view?usp=sharing).
