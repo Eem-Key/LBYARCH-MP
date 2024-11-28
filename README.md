@@ -59,3 +59,5 @@ The x86-64 implementation, however, remains significantly faster:
 ## Demo Video
 
 Click the Link to watch the [Short Demo](https://drive.google.com/file/d/1fLPxaZyWumpYIOkqcRfoxvdKo1eRGmSW/view?usp=sharing).
+
+*The for loop for the sample has been removed, so the program ends after inputting one input. This was only added for the demonstration's sake, but testing afterward is kept.*
